@@ -82,3 +82,16 @@ int main(){
     cout<<"Hit "<<hit<<'\n'<<"Page Fault "<<m-hit<<'\n';
     return 0;
 }
+/*Enter number of frames
+3
+Enter number of processes
+12
+Enter processes
+1 2 3 4 1 2 5 1 2 3 4 5 
+Process 1 2 3 4 1 2 5 1 2 3 4 5 
+Frame 0 1 1 1 4 4 4 5 5 5 3 3 3 
+Frame 1 E 2 2 2 1 1 1 1 1 1 4 4 
+Frame 2 E E 3 3 3 2 2 2 2 2 2 5 
+              1 1       
+Hit 2
+Page Fault 10*/
