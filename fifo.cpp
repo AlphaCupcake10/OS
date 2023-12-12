@@ -110,7 +110,7 @@ int main() {
 
     return 0;
 }
-// Enter the number of frames: 3
+/* Enter the number of frames: 3
 Enter the number of processes: 14
 Enter the processes: 7  0  1  2  0  3  0  4  2  3  0  3  2  1
 Process    7  0  1  2  0  3  0  4  2  3  0  3  2  1  
@@ -120,4 +120,4 @@ Frame2     -  -  1  1  1  1  0  0  0  3  3  3  3  3
 Page Fault Y  Y  Y  Y  N  Y  Y  Y  Y  Y  Y  N  N  Y  
 
 Page Fault 11
-Hit 3 //
+Hit 3 */
